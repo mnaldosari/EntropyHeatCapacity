@@ -23,7 +23,7 @@ def drop_correlated_cols(df, cols_features, threshold):
 df = pd.read_excel('C:/Users/Mohammed/Documents/Data/Dataset_Raw.xlsx', na_values=['na', 'nan'], index_col=0)
 print(df.shape)
 
-# Drop columns with na
+# Drop columns with empty cells
 df.dropna(axis='columns', inplace=True)
 print(df.shape)
 
@@ -40,5 +40,5 @@ print(df.shape)
 
 
 
-# Save dataset
+# Save dataset as csv file
 df.to_csv('C:/Users/Mohammed/Documents/Data/Final_Dataset.csv')
