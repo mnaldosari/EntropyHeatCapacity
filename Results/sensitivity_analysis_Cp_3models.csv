@@ -1,0 +1,23 @@
+,SVR features,SVR sensitivity values (abs),RFR features,RFR sensitivity values (abs),NuSVR features,NuSVR sensitivity values (abs)
+1,SpMax_X,,SpMax_X,inf,SpMax_X,
+2,MPC08,15.4149906,MW,243.3211593,MPC08,11.82245052
+3,MW,13.48874252,SM14_AEA(bo),26.88143365,piPC06,9.334360126
+4,piPC06,11.95496446,EE_B(s),6.866594952,MW,9.25729032
+5,ZM1V,10.69884784,P_VSA_LogP_2,5.176881327,Mor10v,9.07022679
+6,TIC1,10.61980968,LLS_01,5.067058444,SM08_AEA(dm),8.462157015
+7,Mor10v,10.59812972,Psi_i_0d,2.935988613,Mor20m,7.828402686
+8,RDF030m,10.52365372,RDF120u,2.845390542,BAC,7.816603893
+9,BAC,10.3108365,JGI9,2.225173584,ZM1V,7.804722029
+10,Mor06u,9.796288009,ATS5e,1.988498981,Mor32u,7.646280946
+,,SVR ,,RFR ,,
+,No.,Features ,Description ,Features ,Description ,
+,1,SpMax_X,leading eigenvalue from chi matrix,SpMax_X,leading eigenvalue from chi matrix,
+,2,MPC08,molecular path count of order 8,MW,molecular weight,
+,3,MW,molecular weight,SM14_AEA(bo),spectral moment of order 14 from augmented edge adjacency mat. weighted by bond order,
+,4,piPC06,molecular multiple path count of order 6,EE_B(s),Estrada-like index (log function) from Burden matrix weighted by I-State,
+,5,ZM1V,first Zagreb index by valence vertex degrees,P_VSA_LogP_2,"P_VSA-like on LogP, bin 2",
+,6,TIC1,Total Information Content index (neighborhood symmetry of 1-order),LLS_01,modified lead-like score from Congreve et al. (6 rules),
+,7,Mor10v,signal 10 / weighted by van der Waals volume,Psi_i_0d,intrinsic state pseudoconnectivity index – type 0d,
+,8,RDF030m,Radial Distribution Function – 030 / weighted by mass,RDF120u,Radial Distribution Function – 120 / unweighted,
+,9,BAC,Balaban centric index,JGI9,mean topological charge index of order 9,
+,10,Mor06u,signal 06 / unweighted,ATS5e,Broto-Moreau autocorrelation of lag 5 (log function) weighted by Sanderson electronegativity,

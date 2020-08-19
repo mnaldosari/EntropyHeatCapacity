@@ -1,0 +1,23 @@
+,SVR features,,SVR sensitivity values (abs),RFR features,RFR sensitivity values (abs),NuSVR features,NuSVR sensitivity values (abs)
+0,ZM1V,,15.50895383,R3u,6.866595145,ZM1V,12.35058386
+1,SIC5,,15.64881846,Mor09i,7.59593536,MW,13.21570363
+2,LLS_01,,15.97723188,ATS5e,8.909386188,H5u,13.50231925
+3,MW,,17.43120928,Psi_i_1s,13.42886639,SM08_AEA(dm),13.5435758
+4,Eig02_EA(dm),,17.88605395,SM14_AEA(bo),26.12822981,IDDE,13.83107427
+5,Mor18m,,19.06850171,SM12_AEA(bo),37.73374518,LLS_01,13.90484507
+6,SM12_AEA(bo),,19.2095266,SM13_AEA(ri),40.53587584,SM12_AEA(bo),14.10524479
+7,piPC06,,21.67956357,Xt,102.522108,piPC06,15.48522829
+8,MPC08,,22.81206131,MW,193.5111491,MPC08,17.13170794
+9,SpMax_X,,,SpMax_X,,SpMax_X,
+,SVR ,,RFR,,,,
+No. ,Features ,Description,Features ,Description,,,
+1,SpMax_X,leading eigenvalue from chi matrix,SpMax_X,leading eigenvalue from chi matrix,,,
+2,MPC08,molecular path count of order 8,MW,molecular weight,,,
+3,piPC06,molecular multiple path count of order 6,Xt,total structure connectivity index,,,
+4,SM12_AEA(bo),spectral moment of order 12 from augmented edge adjacency mat. weighted by bond order,SM13_AEA(ri),spectral moment of order 13 from augmented edge adjacency mat. weighted by resonance integral,,,
+5,Mor18m,signal 18 / weighted by mass,SM12_AEA(bo),spectral moment of order 12 from augmented edge adjacency mat. weighted by bond order,,,
+6,Eig02_EA(dm),eigenvalue n. 2 from edge adjacency mat. weighted by dipole moment,SM14_AEA(bo),spectral moment of order 14 from augmented edge adjacency mat. weighted by bond order,,,
+7,MW,molecular weight,Psi_i_1s,intrinsic state pseudoconnectivity index – type 1s,,,
+8,LLS_01,modified lead-like score from Congreve et al. (6 rules),ATS5e,Broto-Moreau autocorrelation of lag 5 (log function) weighted by Sanderson electronegativity,,,
+9,SIC5,Structural Information Content index (neighborhood symmetry of 5-order),Mor09i,signal 09 / weighted by ionization potential,,,
+10,ZM1V,first Zagreb index by valence vertex degrees,R3u,R autocorrelation of lag 3 / unweighted,,,
